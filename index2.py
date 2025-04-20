@@ -9,6 +9,10 @@ def primeSeive(n):
         currentNumber+=1
     prime[0]=False
     prime[1]=False
+    prime[2]=False
+    prime[3]=False
+    prime[5]=False
+    prime[7]=False
     for p in range (n+1):
      if prime[p]:
         print(p)
